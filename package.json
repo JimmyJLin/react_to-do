@@ -1,0 +1,25 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "to do app in react",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "to-do"
+  ],
+  "author": "Jason Seminara",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0"
+  }
+}
