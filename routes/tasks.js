@@ -22,7 +22,7 @@ tasks.route('/:taskID/time')
 tasks.route('/:taskID')
   .put(db.toggleTask, (req,res)=>{
     // update a specific task
-    
+
     // todo: return the actual id from the db, instead of just echoing here
     res.send(req.params.taskid)
   })
@@ -30,6 +30,7 @@ tasks.route('/:taskID')
     // delte a specific task
 
     // todo: return the actual id from the db, instead of just echoing here
+
     res.send(req.params.taskid)
   })
 

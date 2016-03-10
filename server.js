@@ -25,10 +25,6 @@ app.use(express.static(path.join(__dirname,'public')))
 app.use(logger('dev'));
 app.use('/tasks',taskRoutes);
 
-// serve the index.html file statically
-app.get('/',(req,res)=>{
-  res.sendFile('index.html')
-})
 
 // turn me on!
 app.listen(PORT , ()=>
