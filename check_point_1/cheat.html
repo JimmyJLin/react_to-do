@@ -1,0 +1,57 @@
+<!-- list item -->
+
+<li className="collection-item"><div><strong>NAME</strong> DESC<a href="#" className="secondary-content"><i className="material-icons">check</i></a></div></li>
+
+
+<!-- form -->
+<form class="task-edit" >
+  <h3>Create a new task</h3>
+
+  <div class="row">
+    <div class="input-field col s4">
+      <label htmlFor="task_name">Task Name</label>
+      <input type="text"  id="task_name" />
+    </div>
+    <div class="input-field col s8">
+      <label htmlFor="task_desc">Task Description</label>
+      <input type="text"  id="task_desc" />
+    </div>
+  </div>
+  <div class="row">
+    <button class="btn waves-effect waves-light col s6" type="submit" name="action">Add Task</button>
+  </div>
+
+
+</form>
+
+
+<!-- container -->
+
+      <div className="container">
+      
+        <div className="row">
+          <section className="col s12">
+            <section id="todo-display" className="col s7">
+              <ul className="collection with-header">
+                <li className="collection-header"><h4>Tasks</h4></li>
+                
+              </ul>
+            </section>
+
+            <section id="todo-form" className="col s5">
+              <aside className="card-panel">
+              
+              </aside>
+            </section>
+          </section>
+        </div>
+        <div className="row">
+          <section id="todo-display-complete" className="col s12">
+            <ul className="collection with-header">
+                <li className="collection-header"><h4>Completed Tasks</h4></li>
+
+              </ul>
+
+            </section>
+        </div>
+      </div>
